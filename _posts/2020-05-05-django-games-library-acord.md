@@ -38,7 +38,7 @@ graphcommentWidget(document.getElementById('graphcomment-widget'), {
     
  <center><div class="tumblr-post" data-href="https://embed.tumblr.com/embed/post/rXPxI5LYyEuBJ9gnDcWo5Q/617238791736967168" data-did="69b286a2a0e25b7e62f0e64679cfaca65a3408d3"><a href="https://blog.acord.software/post/617238791736967168/a-django-games-library-for-ac0rd">https://blog.acord.software/post/617238791736967168/a-django-games-library-for-ac0rd</a></div>  <script async src="https://assets.tumblr.com/post.js"></script></center>
  
- {% include graphcomments-sidebar.html %}
+
 
 > After purchasing a Zenva Academy Membership, I’ve been starting to follow the Space Invaders Tutorial. I’ll be logging my progress here. Currently I’ve completed the firing and cooldown mechanics. I also sent through a thread on tribe.acord.software, however this thread will be kept up to date.
 
@@ -84,7 +84,29 @@ Thanks to Zenva Academy for the initial "skeleton" of a lot of the Arcadia games
 We hope you enjoy it
 
 
+<div id="graphcomment"></div>
+<script type="text/javascript">
 
+  /* - - - CONFIGURATION VARIABLES - - - */
+
+  // make sure the id is yours
+  window.gc_params = {
+    graphcomment_id: 'ACORD',
+
+    // if your website has a fixed header, indicate it's height in pixels
+    fixed_header_height: 0,
+  };
+
+  /* - - - DON'T EDIT BELOW THIS LINE - - - */
+
+  
+  (function() {
+    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
+    gc.src = 'https://graphcomment.com/js/integration.js?' + Math.round(Math.random() * 1e8);
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
+  })();
+
+</script>
 
 
 Links:
