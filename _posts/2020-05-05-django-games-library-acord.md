@@ -8,32 +8,6 @@ featured: true
 
 
 
-<div id="graphcomment-widget"></div>
-
-<script src="https://graphcomment.com/js/widget.js"></script>
-
-<script>
-graphcommentWidget(document.getElementById('graphcomment-widget'), {
-  "graphcomment_id": null,
-  "defaultTab": "last_comments",
-  "tabs": [
-    "last_comments",
-    "top_comments",
-    "top_threads"
-  ],
-  "labels": {
-    "last_comments": "",
-    "top_comments": "",
-    "top_threads": ""
-  },
-  "period": "90 days",
-  "limit": 25,
-  "height": null,
-  "openLinksNewWindow": true,
-  "showVotes": true,
-  "locale": "en"
-});
-</script>
     
     
  <center><div class="tumblr-post" data-href="https://embed.tumblr.com/embed/post/rXPxI5LYyEuBJ9gnDcWo5Q/617238791736967168" data-did="69b286a2a0e25b7e62f0e64679cfaca65a3408d3"><a href="https://blog.acord.software/post/617238791736967168/a-django-games-library-for-ac0rd">https://blog.acord.software/post/617238791736967168/a-django-games-library-for-ac0rd</a></div>  <script async src="https://assets.tumblr.com/post.js"></script></center>
@@ -83,6 +57,18 @@ Thanks to Zenva Academy for the initial "skeleton" of a lot of the Arcadia games
 
 We hope you enjoy it
 
+Links:
+
+1. Forum post: https://forums.acord.software/d/3-space-invaders-game-in-unity
+
+2. Contributing code through discussion: https://blog.acord.software/post/612260427615928320/contributing-code-through-discussion
+
+3. AC0/RD Network Digest: https://blog.acord.software/post/611947364722360320/ac0rd-digest-our-network-ambitions
+
+4. HTML Dashboards: https://blog.acord.software/post/611809431430283264/html-dashboards-for-administration
+
+5. Project Arcadia: https://forums.acord.software/d/3-space-invaders-game-in-unity/7
+
 
 <div id="graphcomment"></div>
 <script type="text/javascript">
@@ -109,17 +95,30 @@ We hope you enjoy it
 </script>
 
 
-Links:
+<div id="graphcomment-widget"></div>
 
-1. Forum post: https://forums.acord.software/d/3-space-invaders-game-in-unity
+<script src="https://graphcomment.com/js/widget.js"></script>
 
-2. Contributing code through discussion: https://blog.acord.software/post/612260427615928320/contributing-code-through-discussion
-
-3. AC0/RD Network Digest: https://blog.acord.software/post/611947364722360320/ac0rd-digest-our-network-ambitions
-
-4. HTML Dashboards: https://blog.acord.software/post/611809431430283264/html-dashboards-for-administration
-
-5. Project Arcadia: https://forums.acord.software/d/3-space-invaders-game-in-unity/7
-
-
-
+<script>
+graphcommentWidget(document.getElementById('graphcomment-widget'), {
+  "graphcomment_id": "ACORD",
+  "defaultTab": "last_comments",
+  "tabs": [
+    "last_comments",
+    "top_comments",
+    "top_threads"
+  ],
+  "labels": {
+    "last_comments": "",
+    "top_comments": "",
+    "top_threads": ""
+  },
+  "period": "90 days",
+  "limit": 25,
+  "height": null,
+  "openLinksNewWindow": true,
+  "showVotes": true,
+  "locale": "en"
+});
+</script>
+    
