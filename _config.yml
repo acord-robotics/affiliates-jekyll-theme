@@ -1,27 +1,27 @@
 # Site
-name: "Affiliates Theme for Jekyll"
-title: "Affiliates Theme for Jekyll"
-description: "Jekyll Theme for Blogging"
-meta_description: "Jekyll theme for blogging."
+name: "AC0/RD Software"
+title: "AC0/RD Software"
+description: "Open Source software community"
+meta_description: "Open Source software community"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 paginate: 12
 baseurl: '/'
-email: 'wowthemesnet@gmail.com'
+email: 'liam@acordsoftware.tech'
 google_analytics: 'UA-46278016-1'
-disqus: 'demowebsite'
+disqus: 'acordrobotics'
 sharethis: '<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a6b2fe4fb197a0011c589f6&product=sticky-share-buttons"></script>'
 
 # Authors
 authors:
   sal:
-    name: Sal
-    display_name: Sal
+    name: Liam
+    display_name: Liam
     gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net/category/jekyll-themes/
-    twitter: https://twitter.com/wowthemesnet
-    description: "Author of Affiliates, a template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+    email: liam@acordsoftware.tech
+    web: http://github.com/gizmotronn
+    twitter: https://twitter.com/OpusTheRobot
+    description: "Lead developer & Co-Founder of AC0/RD Software"
   john:
     name: John
     display_name: John
