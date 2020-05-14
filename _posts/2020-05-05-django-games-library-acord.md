@@ -52,48 +52,6 @@ When we first came up with the idea of creating a Star Sailors game, we envision
 
 To accomplish this, while you will have the option to play Arcadia games without creating an account, it is highly recommended that you do. By creating an account, you not only get access to the full games library (initially created with Django), you get access to the main Star Sailors game, the community forums and the source code (through authenticiation with Github). 
 
-### Credits
-Thanks to Zenva Academy for the initial "skeleton" of a lot of the Arcadia games, and for helping us to learn how to build these projects.
-
-We hope you enjoy it
-
-Links:
-
-1. Forum post: https://forums.acord.software/d/3-space-invaders-game-in-unity
-
-2. Contributing code through discussion: https://blog.acord.software/post/612260427615928320/contributing-code-through-discussion
-
-3. AC0/RD Network Digest: https://blog.acord.software/post/611947364722360320/ac0rd-digest-our-network-ambitions
-
-4. HTML Dashboards: https://blog.acord.software/post/611809431430283264/html-dashboards-for-administration
-
-5. Project Arcadia: https://forums.acord.software/d/3-space-invaders-game-in-unity/7
-
-
-<div id="graphcomment"></div>
-<script type="text/javascript">
-
-  /* - - - CONFIGURATION VARIABLES - - - */
-
-  // make sure the id is yours
-  window.gc_params = {
-    graphcomment_id: 'ACORD',
-
-    // if your website has a fixed header, indicate it's height in pixels
-    fixed_header_height: 0,
-  };
-
-  /* - - - DON'T EDIT BELOW THIS LINE - - - */
-
-  
-  (function() {
-    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
-    gc.src = 'https://graphcomment.com/js/integration.js?' + Math.round(Math.random() * 1e8);
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
-  })();
-
-</script>
-
 
 <div id="graphcomment-widget"></div>
 
@@ -122,3 +80,49 @@ graphcommentWidget(document.getElementById('graphcomment-widget'), {
 });
 </script>
     
+
+### Credits
+Thanks to Zenva Academy for the initial "skeleton" of a lot of the Arcadia games, and for helping us to learn how to build these projects.
+
+We hope you enjoy it
+
+Links:
+
+1. Forum post: https://forums.acord.software/d/3-space-invaders-game-in-unity
+
+2. Contributing code through discussion: https://blog.acord.software/post/612260427615928320/contributing-code-through-discussion
+
+3. AC0/RD Network Digest: https://blog.acord.software/post/611947364722360320/ac0rd-digest-our-network-ambitions
+
+4. HTML Dashboards: https://blog.acord.software/post/611809431430283264/html-dashboards-for-administration
+
+5. Project Arcadia: https://forums.acord.software/d/3-space-invaders-game-in-unity/7
+
+
+
+
+<div id="graphcomment"></div>
+<script type="text/javascript">
+
+  /* - - - CONFIGURATION VARIABLES - - - */
+
+  // make sure the id is yours
+  window.gc_params = {
+    graphcomment_id: 'ACORD',
+
+    // if your website has a fixed header, indicate it's height in pixels
+    fixed_header_height: 0,
+  };
+
+  /* - - - DON'T EDIT BELOW THIS LINE - - - */
+
+  
+  (function() {
+    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
+    gc.src = 'https://graphcomment.com/js/integration.js?' + Math.round(Math.random() * 1e8);
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
+  })();
+
+</script>
+
+
